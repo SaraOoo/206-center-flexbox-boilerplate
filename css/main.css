@@ -97,7 +97,7 @@ textarea {
 
 /*Large Background Image*/
 html {
-    background: url(../img/bkgd2.jpg) no-repeat center center fixed;
+    background: url(../img/ocean.jpg) no-repeat center center fixed;
     background-size: cover;
    height: 100%;
 }
@@ -110,6 +110,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     margin: 0;
     height: 100%;
     width: 100%;
@@ -128,14 +129,26 @@ body {
     line-height: 1.5em;
     border-radius: 10px;
     padding: 0px 30px;
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 160px;
+    text-align: center;
+    margin-bottom: 2%;
 }
 
 #content p span {
     font-family: 'Lora', sans-serif;
+    color: Lightblue;
 }
 
+#picture {
+  display: flex;
+  align-items: column;
+  background: url('../img/pic-sara.jpg') center;
+  border-radius: 10px;
+  height: 330px;
+  width: 380px;
+
+}
 
 
 
